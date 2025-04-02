@@ -6,12 +6,13 @@
 
 ###### Before setting up Minikube, ensure that Homebrew is updated and install the required dependencies.
 
-brew update                             # Update Homebrew package manager
-brew install docker                     # Install Docker for hypervisor
-brew install minikube                   # Install Minikube (Kubernetes local cluster manager)
-kubectl                                 # Verify kubectl installation
-minikube                                # Verify Minikube installation
-Create a Minikube Cluster
+- brew update                             # Update Homebrew package manager
+- brew install docker                     # Install Docker for hypervisor
+- brew install minikube                   # Install Minikube (Kubernetes local cluster manager)
+- kubectl                                 # Verify kubectl installation
+- minikube                                # Verify Minikube installation
+
+##### Create a Minikube Cluster
 
 ###### Start a Minikube cluster using Hyperkit as the virtual machine driver.
 
